@@ -1,0 +1,80 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;   /* White background */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container */
+.app-container {
+  text-align: center;
+}
+
+/* Card style */
+.card {
+  background-color: #ffffff;
+  padding: 30px;
+  width: 350px;
+  border-radius: 12px;
+  border: 2px solid #2e7d32;
+  box-shadow: 0 4px 10px rgba(0, 128, 0, 0.15);
+}
+
+/* Navbar */
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+nav a:hover {
+  color: #2e7d32;
+}
+
+/* Buttons */
+button {
+  padding: 8px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #2e7d32;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
+
+/* Input */
+input {
+  padding: 6px;
+  width: 70px;
+  text-align: center;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 1px solid #2e7d32;
+}
+
+/* Headings */
+h1, h3 {
+  color: #1b5e20;
+}
+
+/* Goal message */
+p {
+  color: #2e7d32;
+  font-weight: bold;
+}
